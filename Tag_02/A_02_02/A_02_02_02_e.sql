@@ -1,0 +1,8 @@
+#A_02_02_02(e)
+
+USE A_01_05_02;
+
+ALTER TABLE Firmenwagen
+ADD COLUMN Marke_ID INT(11) NOT NULL,
+ADD Constraint FK_Marke_ID FOREIGN KEY (Marke_ID) REFERENCES Marke(Marke_ID)
+;

@@ -1,0 +1,6 @@
+#A_02_02_02(h_1)
+USE A_01_05_02;
+
+SHOW CREATE TABLE Kollege
+
+;

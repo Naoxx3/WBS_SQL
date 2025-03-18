@@ -1,0 +1,9 @@
+#A_02_02_02(d)
+
+USE A_01_05_02;
+
+CREATE TABLE Marke(
+    Marke_ID INT(11) AUTO_INCREMENT,
+    Markenname VARCHAR(50) NOT NULL,
+    PRIMARY KEY (Marke_ID)
+);

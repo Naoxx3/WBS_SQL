@@ -1,0 +1,6 @@
+#A_02_02_02(h)
+USE A_01_05_02;
+
+ALTER TABLE Kollege
+CHANGE Nachname Familienname VARCHAR(30) NOT NULL
+;
