@@ -1,0 +1,6 @@
+
+#Aufgabe_02_02_03u04_c_1
+
+USE A_02_02_03u04;
+
+ALTER TABLE 
