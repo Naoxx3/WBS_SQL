@@ -1,4 +1,4 @@
-# Musterlösung zu FPA_02_04_01_bis_03(e)
+# FPA_02_04_01_bis_03(e)
 
 INSERT INTO Person(Vorname,Nachname,Geburtsjahr,Strasse,Hausnummer,PLZ,Ort)
 VALUES

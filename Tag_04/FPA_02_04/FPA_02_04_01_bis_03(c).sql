@@ -1,4 +1,4 @@
-# Musterlösung zu FPA_02_04_01_bis_03(c)
+#  FPA_02_04_01_bis_03(c)
 
 
 CREATE DATABASE FPA_02_04_01_bis_03_c;
