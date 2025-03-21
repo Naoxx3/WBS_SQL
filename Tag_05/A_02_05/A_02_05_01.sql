@@ -10,9 +10,7 @@ SELECT * FROM Hersteller ORDER BY Hersteller_Name;
 
 
 #c)
-SELECT * FROM Produkt 
-WHERE Euro_Preis>20 AND Euro_Preis<50
-ORDER BY Produkt_Name ASC,Euro_Preis ASC;
+SELECT * FROM Produkt WHERE Euro_Preis>20 AND Euro_Preis<50 ORDER BY Produkt_Name ASC,Euro_Preis ASC;
 
 # Die Sortierrichtung ASC kann als Default-Einstellung auch weggelassen werden.
 # Die obige Lösung macht aber deutlich, dass die Sortierrichtung PRO Sortierkriterium gewählt werden kann
@@ -24,17 +22,12 @@ ORDER BY Produkt_Name ASC,Euro_Preis ASC;
 
 
 #d)
-SELECT 
-	Kunde_ID,
-    Datum
-FROM Abrechnung
-WHERE Datum>"2021-05-31" AND Datum<"2022-06-01";
+	
+SELECT Kunde_ID,Datum FROM Abrechnung WHERE Datum>"2021-05-31" AND Datum<"2022-06-01";
 
 
 #e)
-SELECT * FROM Kunde
-ORDER BY Kunde_ID DESC
-LIMIT 2,4;
+SELECT * FROM Kunde ORDER BY Kunde_ID DESC LIMIT 2,4;
 
 
 #f)
